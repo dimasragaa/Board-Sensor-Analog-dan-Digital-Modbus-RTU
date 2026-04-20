@@ -1,0 +1,7867 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4f915efd-8fec-49d2-99fe-ae860b0c12a9")
+	(paper "A4")
+	(title_block
+		(title "IoT Node")
+		(date "2026-01-28")
+		(rev "V3")
+		(company "PT. MEDION FARMA JAYA")
+		(comment 1 "DESAIN @DMSRAGAA")
+		(comment 2 "INSTITUT TEKNOLOGI SEPULUH NOPEMBER")
+	)
+	(lib_symbols
+		(symbol "Amplifier_Operational:LM324"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM324"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM324_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Fuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_Small_0_1"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Pack04_Split"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04_Split"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack04_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_2_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_3_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_4_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DIP_x04"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x04"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x4*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x04_0_0"
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.3876) (xy 2.3622 -1.3462)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy 2.3622 3.7084)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.207) (xy 2.3622 6.2484)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x04_0_1"
+				(rectangle
+					(start -3.81 7.62)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x04_1_1"
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 158.496 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03c64866-fa55-4e64-a862-c592c5c15859")
+	)
+	(junction
+		(at 51.054 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "076c815d-172c-4d31-bcf7-899ec3b8430c")
+	)
+	(junction
+		(at 198.12 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07fb3d0f-3ed0-4ac6-9c77-0be2eb328f20")
+	)
+	(junction
+		(at 97.79 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "080d05d2-1036-4ba0-b6b4-c1d2119148b3")
+	)
+	(junction
+		(at 155.956 126.492)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f02f44e-f9a4-49c2-8bd7-bb7662efa9f6")
+	)
+	(junction
+		(at 117.602 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11dd5361-c3b1-4783-9e57-c7b90a40a2ed")
+	)
+	(junction
+		(at 117.602 106.934)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "199b780d-c295-4366-b840-dc2356570d7d")
+	)
+	(junction
+		(at 117.602 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cfbf444-c212-4fdb-b10a-5f745cb210fa")
+	)
+	(junction
+		(at 158.496 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22aeb3c1-6a6e-4e8f-bc82-133887443443")
+	)
+	(junction
+		(at 198.12 110.998)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28c1d339-4ba8-4554-8679-3c88ff7a7acd")
+	)
+	(junction
+		(at 51.054 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "348fa7aa-bed4-4607-9ace-2cd21d0636db")
+	)
+	(junction
+		(at 51.054 78.994)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c901e66-be8e-40d8-8999-3da579966187")
+	)
+	(junction
+		(at 198.12 78.232)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dfcbb84-417e-45e7-96a3-03dde4110830")
+	)
+	(junction
+		(at 158.496 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b8d31f5-9092-4cb4-ab6b-db5d7e88d50f")
+	)
+	(junction
+		(at 97.79 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57d0f040-e798-4780-8cc4-8b835936fcb8")
+	)
+	(junction
+		(at 138.684 78.486)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c1b098d-c579-40bc-bae9-86a13c4a582a")
+	)
+	(junction
+		(at 65.786 111.252)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61004dd3-2dfa-4598-8258-433f9a09d094")
+	)
+	(junction
+		(at 153.416 111.252)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cf0ca70-d542-4ccd-903f-91d71175c2f1")
+	)
+	(junction
+		(at 195.58 126.746)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73fcc0fc-13b4-4769-8704-8f7743b72402")
+	)
+	(junction
+		(at 70.866 109.728)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79175d1d-6333-4d89-a18f-4ec21812978a")
+	)
+	(junction
+		(at 97.79 78.994)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d8cad71-7ace-4d8b-9e5f-4eb2c42091db")
+	)
+	(junction
+		(at 115.062 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ef9cb33-0172-475a-9480-ed8709e0c381")
+	)
+	(junction
+		(at 70.866 78.994)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cf6e74e-3a88-46b4-9ffb-62b0b85d3b3e")
+	)
+	(junction
+		(at 68.326 126.492)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4647859-e937-4bc7-a48d-c745ae303f3a")
+	)
+	(junction
+		(at 193.04 111.506)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5c6cf08-2afe-4345-9a06-50ffb066b503")
+	)
+	(junction
+		(at 112.522 108.458)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac583652-6ee9-48a4-b9eb-151ea1987970")
+	)
+	(junction
+		(at 138.7878 90.678)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b501bbc0-e9fa-48b9-949b-0f103db017fa")
+	)
+	(junction
+		(at 158.496 78.486)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9e6a29a-f76f-4361-84ee-606fd6b6b560")
+	)
+	(junction
+		(at 178.308 78.232)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3f7dfa8-e854-4095-b453-52e1b74b0b6f")
+	)
+	(junction
+		(at 198.12 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d54b11f8-a95b-49b5-9a71-92bcbfac573b")
+	)
+	(junction
+		(at 70.866 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed59342f-7137-46e1-8a3d-32b968028a34")
+	)
+	(junction
+		(at 70.866 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef01fe0a-916f-4718-9569-276b9bbbe038")
+	)
+	(junction
+		(at 138.684 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f22043f3-c80d-46c6-9605-4e02cf9cd6e4")
+	)
+	(junction
+		(at 178.308 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4b21f9c-4b70-4072-b02b-7c1f1840b67e")
+	)
+	(junction
+		(at 117.602 78.994)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8c20cbc-92e4-485a-9948-419cb1aca224")
+	)
+	(junction
+		(at 178.3817 90.424)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff0696d-704a-4756-bada-cd6acdba7f8f")
+	)
+	(wire
+		(pts
+			(xy 191.77 67.31) (xy 198.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e41698-fe9d-4f42-8ece-a4b7ea733d7b")
+	)
+	(wire
+		(pts
+			(xy 195.58 126.746) (xy 195.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015adbcf-7596-4839-878c-52fa04e3ab03")
+	)
+	(wire
+		(pts
+			(xy 178.3817 90.17) (xy 178.3817 90.424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d273c6-3f51-4348-be34-530695c6df74")
+	)
+	(wire
+		(pts
+			(xy 212.598 57.404) (xy 212.598 59.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f682aa3-7bbd-4438-b433-6687a5012983")
+	)
+	(wire
+		(pts
+			(xy 178.3817 97.536) (xy 178.3817 90.424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10095744-e636-4a28-af6f-10d7ed6b84b6")
+	)
+	(wire
+		(pts
+			(xy 158.496 105.41) (xy 158.496 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1106226a-9cc3-407f-bac2-f17f4638b5b6")
+	)
+	(wire
+		(pts
+			(xy 158.496 67.31) (xy 158.496 70.866)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13558012-986a-448d-b4fc-c8a43eb06065")
+	)
+	(wire
+		(pts
+			(xy 248.412 77.47) (xy 246.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19981a8c-6584-419a-a71b-4120bc7d1f17")
+	)
+	(wire
+		(pts
+			(xy 164.338 70.866) (xy 164.338 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bce1354-34f8-499e-8521-187b064419aa")
+	)
+	(wire
+		(pts
+			(xy 148.336 111.252) (xy 153.416 111.252)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8521e7-78f4-473e-88d4-eca6a18dfaed")
+	)
+	(wire
+		(pts
+			(xy 97.79 90.17) (xy 97.79 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ec7957-4394-42e6-948f-a806a982b68d")
+	)
+	(wire
+		(pts
+			(xy 212.598 64.262) (xy 212.598 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c033aa-d4bb-42ef-ba28-bca7216c067f")
+	)
+	(wire
+		(pts
+			(xy 138.684 90.678) (xy 138.684 78.486)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0caf8c-45bd-4c17-b9e8-c9890960d89c")
+	)
+	(wire
+		(pts
+			(xy 121.412 71.374) (xy 117.602 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bacbf31-31f6-486c-9b8d-2e28200ddc74")
+	)
+	(wire
+		(pts
+			(xy 143.51 78.486) (xy 138.684 78.486)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4e27a1-4301-41b7-968a-0cbcce3314a8")
+	)
+	(wire
+		(pts
+			(xy 198.12 67.31) (xy 198.12 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311df705-031d-4783-9452-47ecfbf6f986")
+	)
+	(wire
+		(pts
+			(xy 158.496 57.658) (xy 158.496 59.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e48bfb-0a9b-4b61-bd3f-9b4b343097cb")
+	)
+	(wire
+		(pts
+			(xy 51.054 58.42) (xy 51.054 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1f820b-dc9d-4c0d-9ec2-4affa9c3a4fc")
+	)
+	(wire
+		(pts
+			(xy 76.708 72.644) (xy 70.866 72.644)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2fe8b2-dc27-441d-9914-25c0d7537409")
+	)
+	(wire
+		(pts
+			(xy 158.496 90.17) (xy 158.496 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3bcbb9-f1b8-4eb3-afd9-c3c09e3b1ddc")
+	)
+	(wire
+		(pts
+			(xy 158.496 111.252) (xy 158.496 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba357b9-3591-47fb-b913-b07a4c26d915")
+	)
+	(wire
+		(pts
+			(xy 186.436 116.586) (xy 186.436 111.506)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bebae2d-c0b3-4e05-ad0e-1d844966e72f")
+	)
+	(wire
+		(pts
+			(xy 117.602 72.644) (xy 117.602 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd06052-a0eb-4104-93c2-a6ca7e47226d")
+	)
+	(wire
+		(pts
+			(xy 138.7878 90.17) (xy 138.7878 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f44a2c1-57f4-4b2a-bff2-8631c7499ad7")
+	)
+	(wire
+		(pts
+			(xy 198.12 67.31) (xy 198.12 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc0b632-0848-46a4-8e9a-528cb837d706")
+	)
+	(wire
+		(pts
+			(xy 155.956 126.492) (xy 155.956 131.826)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff214dc-6afc-4346-87dc-d24deda94fb0")
+	)
+	(wire
+		(pts
+			(xy 97.79 90.17) (xy 97.79 96.774)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f9ffbd-2f79-4806-ab98-3b59f474a3e3")
+	)
+	(wire
+		(pts
+			(xy 158.496 72.136) (xy 158.496 78.486)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45716d74-d9b4-44f7-bc2c-b9cd44e51760")
+	)
+	(wire
+		(pts
+			(xy 228.346 74.93) (xy 231.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47979616-181c-40b3-9dac-aa22358325d4")
+	)
+	(wire
+		(pts
+			(xy 56.896 115.57) (xy 56.896 111.252)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479d4695-8465-4c30-9bd0-945d38784d8c")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.994) (xy 70.866 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e3b01e-1bf9-4983-82b2-5f709eaaa659")
+	)
+	(wire
+		(pts
+			(xy 85.344 78.994) (xy 83.82 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ff4b4f-5e65-4ec2-855a-3a9203677444")
+	)
+	(wire
+		(pts
+			(xy 51.054 101.346) (xy 51.054 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49baf150-440e-4a06-8b50-c6d62fe8ae37")
+	)
+	(wire
+		(pts
+			(xy 123.444 72.644) (xy 117.602 72.644)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c903686-557b-4398-a182-3ee4877f95c5")
+	)
+	(wire
+		(pts
+			(xy 153.416 105.664) (xy 153.416 111.252)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c921a65-3890-4f10-8349-bff162c16497")
+	)
+	(wire
+		(pts
+			(xy 57.15 91.44) (xy 51.054 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd1955a-f75b-444b-82b6-842dd15dedd7")
+	)
+	(wire
+		(pts
+			(xy 117.602 58.166) (xy 117.602 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3806a3-38bd-4304-9b12-a03f5fe503b8")
+	)
+	(wire
+		(pts
+			(xy 178.3817 90.424) (xy 178.308 90.424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3e288a-6c51-4eba-81e2-74c43733fe3a")
+	)
+	(wire
+		(pts
+			(xy 198.12 110.998) (xy 206.248 110.998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6d8d75-d024-45e6-9bfd-4037112f78f3")
+	)
+	(wire
+		(pts
+			(xy 123.444 71.374) (xy 123.444 72.644)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7d387d-4fe9-4ac0-9909-96436f388219")
+	)
+	(wire
+		(pts
+			(xy 65.786 101.346) (xy 51.054 101.346)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50970d09-c5cc-43ba-b82a-97d2a65e39ac")
+	)
+	(wire
+		(pts
+			(xy 85.344 65.024) (xy 85.344 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5187adf9-0e25-49bd-9de6-4f4cdbfb13d9")
+	)
+	(wire
+		(pts
+			(xy 164.338 72.136) (xy 158.496 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537af13a-6304-4984-8b4d-f21fde23a6ec")
+	)
+	(wire
+		(pts
+			(xy 64.77 68.58) (xy 70.866 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5450280e-d344-45f9-bf80-a992b09c0330")
+	)
+	(wire
+		(pts
+			(xy 117.602 78.994) (xy 117.602 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5553d0c3-6fb3-4b70-8d72-8fce3b4d99ca")
+	)
+	(wire
+		(pts
+			(xy 132.08 65.024) (xy 132.08 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e3c188-71c4-4174-b981-d590ed290805")
+	)
+	(wire
+		(pts
+			(xy 138.684 67.31) (xy 138.684 78.486)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57181401-9e7f-400e-ba27-91282e01a0fb")
+	)
+	(wire
+		(pts
+			(xy 132.08 58.166) (xy 132.08 59.944)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57411a34-a543-473a-b4a7-cf4b3f8d5fa5")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 117.602 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5870625d-e473-42c3-b9a8-69e0d0ffe50d")
+	)
+	(wire
+		(pts
+			(xy 70.866 78.994) (xy 63.5 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58cf2833-3ab4-4b7d-9fcf-109beddc1910")
+	)
+	(wire
+		(pts
+			(xy 83.058 109.728) (xy 70.866 109.728)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3cb010-dae5-4b1f-8dcc-4cde4c36f894")
+	)
+	(wire
+		(pts
+			(xy 132.08 78.994) (xy 130.556 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d813186-82f8-490e-b761-d1626e98f408")
+	)
+	(wire
+		(pts
+			(xy 51.054 68.58) (xy 51.054 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da1ad1f-162f-42b6-be0f-725be22a6adc")
+	)
+	(wire
+		(pts
+			(xy 201.93 70.612) (xy 198.12 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e302e25-172c-4ebf-b774-0884dd80d80b")
+	)
+	(wire
+		(pts
+			(xy 112.522 110.744) (xy 112.522 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e565c9e-04fe-404a-a8ef-4d7eb990342e")
+	)
+	(wire
+		(pts
+			(xy 123.698 106.934) (xy 117.602 106.934)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f13d6f5-b914-4d87-96bd-3c54dd5d4575")
+	)
+	(wire
+		(pts
+			(xy 122.936 78.994) (xy 117.602 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2dbf0b-7a72-48cb-aa98-feebcad869e2")
+	)
+	(wire
+		(pts
+			(xy 70.866 91.44) (xy 70.866 101.346)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604cb924-9843-4129-85c6-727a359f0bd1")
+	)
+	(wire
+		(pts
+			(xy 193.04 97.536) (xy 178.3817 97.536)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62620298-aad5-4921-a538-6287154c3c0f")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 138.7878 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6768aa75-e894-4881-b0d5-060bf9b9ebf8")
+	)
+	(wire
+		(pts
+			(xy 112.522 104.394) (xy 112.522 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68173f3b-45c3-4db2-8b0e-0690c651a81c")
+	)
+	(wire
+		(pts
+			(xy 203.962 71.882) (xy 198.12 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a197e75-ed6f-4237-a9c2-3b9d97877b89")
+	)
+	(wire
+		(pts
+			(xy 248.412 74.93) (xy 246.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a19883f-7d86-41e6-9025-f7718d290d6d")
+	)
+	(wire
+		(pts
+			(xy 158.496 67.31) (xy 158.496 64.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9c896a-98eb-42dd-aadd-b21a87e417a4")
+	)
+	(wire
+		(pts
+			(xy 70.866 108.966) (xy 70.866 109.728)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d925c1b-69b0-45d1-810f-8216e5558783")
+	)
+	(wire
+		(pts
+			(xy 184.15 67.31) (xy 178.308 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed4adb9-0575-4f14-9ac9-ab3feffc505e")
+	)
+	(wire
+		(pts
+			(xy 212.598 78.232) (xy 211.074 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f11fcca-4d04-4415-8bcf-c551e05f12cc")
+	)
+	(wire
+		(pts
+			(xy 248.412 69.85) (xy 246.38 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f397ac-62cf-4234-9121-b52ac5fe3aca")
+	)
+	(wire
+		(pts
+			(xy 57.15 68.58) (xy 51.054 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724689eb-9e16-44ec-878c-4d59b6baa241")
+	)
+	(wire
+		(pts
+			(xy 172.974 64.516) (xy 172.974 78.486)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740bbce7-caef-4ad2-88f1-8eb4ede7965e")
+	)
+	(wire
+		(pts
+			(xy 56.896 111.252) (xy 65.786 111.252)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74cee797-a8f1-4d24-ba35-20df3223ce5d")
+	)
+	(wire
+		(pts
+			(xy 198.12 78.232) (xy 190.754 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779424b1-2f99-4f02-84bd-47b6745725d3")
+	)
+	(wire
+		(pts
+			(xy 228.346 72.39) (xy 231.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ce8bcd-4aac-41f8-bc5e-3f6083e14212")
+	)
+	(wire
+		(pts
+			(xy 158.496 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e98b485-8590-405a-9fc3-da4ed4b5df55")
+	)
+	(wire
+		(pts
+			(xy 198.12 78.232) (xy 198.12 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec2b2b8-8e38-43d2-a240-70717aa5f583")
+	)
+	(wire
+		(pts
+			(xy 198.12 111.506) (xy 198.12 110.998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecb6138-04d6-40f2-aa03-2881eba0bee9")
+	)
+	(wire
+		(pts
+			(xy 172.974 57.658) (xy 172.974 59.436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8001d7d4-4358-48a0-8733-5cecad0ed92d")
+	)
+	(wire
+		(pts
+			(xy 106.934 108.458) (xy 106.934 115.062)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811e467c-6854-4d38-8676-fc6147c8ab1d")
+	)
+	(wire
+		(pts
+			(xy 56.896 126.492) (xy 68.326 126.492)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84adfe0a-ca1a-45ae-9002-de49339d690f")
+	)
+	(wire
+		(pts
+			(xy 70.866 91.44) (xy 64.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c91fb1-5091-4bab-856c-4f80a8091f8a")
+	)
+	(wire
+		(pts
+			(xy 97.79 58.42) (xy 97.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b88fe1-7b16-4574-92d5-38a2e42b2cda")
+	)
+	(wire
+		(pts
+			(xy 228.346 77.47) (xy 231.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89389647-048a-49b8-aa35-3f808aa86b50")
+	)
+	(wire
+		(pts
+			(xy 138.7878 90.678) (xy 138.684 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1a7f91-6d12-4413-9404-b353a5442d7a")
+	)
+	(wire
+		(pts
+			(xy 178.308 57.658) (xy 178.308 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efff444-3417-4343-a659-4007100f02b8")
+	)
+	(wire
+		(pts
+			(xy 178.308 67.31) (xy 178.308 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa815cb-08c0-44c0-8bdb-b69080169365")
+	)
+	(wire
+		(pts
+			(xy 70.866 64.77) (xy 70.866 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a900689-4146-4777-9d67-4daa67f5f0c8")
+	)
+	(wire
+		(pts
+			(xy 198.12 57.404) (xy 198.12 58.928)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f60970e-b55a-4ba2-9f8f-bc050caabbad")
+	)
+	(wire
+		(pts
+			(xy 148.336 123.698) (xy 148.336 126.492)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0515876-3a0c-4aa5-af38-5784dbbb9c00")
+	)
+	(wire
+		(pts
+			(xy 198.12 90.17) (xy 198.12 97.536)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a77a5b-9ba9-4df8-81a9-e19b4d380194")
+	)
+	(wire
+		(pts
+			(xy 148.336 116.078) (xy 148.336 111.252)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cf058e-aaaa-4f94-9e70-1c517b824156")
+	)
+	(wire
+		(pts
+			(xy 203.454 78.232) (xy 198.12 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31eb963-0b83-45ce-9df0-ce477f084520")
+	)
+	(wire
+		(pts
+			(xy 117.602 104.14) (xy 117.602 106.934)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6379f96-24b1-41ec-8078-3578014b45db")
+	)
+	(wire
+		(pts
+			(xy 138.684 57.912) (xy 138.684 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab58d112-9ddb-41b8-996f-f92d45c246f8")
+	)
+	(wire
+		(pts
+			(xy 51.054 78.994) (xy 51.054 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab95490a-455c-4ea0-a694-2ace8f3d4ed2")
+	)
+	(wire
+		(pts
+			(xy 178.308 90.424) (xy 178.308 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbc06cd-c57f-4055-91fe-b175165af708")
+	)
+	(wire
+		(pts
+			(xy 55.88 78.994) (xy 51.054 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac16c9cd-3561-4966-8bd1-f8c90fd3ecfe")
+	)
+	(wire
+		(pts
+			(xy 70.866 78.994) (xy 70.866 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c22958-435c-4fc5-9b6d-3c4260aac900")
+	)
+	(wire
+		(pts
+			(xy 106.934 122.682) (xy 106.934 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c71ad2-1083-46ff-89d4-91bdbf3aeeed")
+	)
+	(wire
+		(pts
+			(xy 97.79 68.58) (xy 97.79 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6586137-d3bf-493b-8dc0-f2eaca231b68")
+	)
+	(wire
+		(pts
+			(xy 183.134 78.232) (xy 178.308 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b922af71-6728-4503-a004-cc9b5a5d5d82")
+	)
+	(wire
+		(pts
+			(xy 153.416 98.044) (xy 138.7878 98.044)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b983d8ea-51da-4a06-9635-8f99264ea590")
+	)
+	(wire
+		(pts
+			(xy 70.866 72.644) (xy 70.866 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba163c3d-df6e-46ae-813e-13e4024b2df1")
+	)
+	(wire
+		(pts
+			(xy 117.602 68.58) (xy 117.602 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf48b84-7f61-4f9c-96aa-774e495622f5")
+	)
+	(wire
+		(pts
+			(xy 198.12 71.882) (xy 198.12 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be09051d-205d-4136-b1ff-cac3aaf3610b")
+	)
+	(wire
+		(pts
+			(xy 191.77 90.17) (xy 198.12 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf736960-a310-43e3-a718-7c50d602e166")
+	)
+	(wire
+		(pts
+			(xy 186.436 111.506) (xy 193.04 111.506)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe409fa-d4a6-4541-903d-25d88541820f")
+	)
+	(wire
+		(pts
+			(xy 56.896 123.19) (xy 56.896 126.492)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c742a6-a217-44fb-a3db-7f44ff1725e4")
+	)
+	(wire
+		(pts
+			(xy 138.7878 98.044) (xy 138.7878 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6adb3a0-1575-4285-843f-5b109ad313f2")
+	)
+	(wire
+		(pts
+			(xy 186.436 126.746) (xy 195.58 126.746)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c2c0f2-b2f7-4537-89e7-481d707df349")
+	)
+	(wire
+		(pts
+			(xy 162.306 70.866) (xy 158.496 70.866)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c841dd51-28aa-4666-b479-97d555886c8b")
+	)
+	(wire
+		(pts
+			(xy 65.786 108.966) (xy 65.786 111.252)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0064ff-ede2-4649-9f98-06ae091d71b0")
+	)
+	(wire
+		(pts
+			(xy 115.062 128.27) (xy 115.062 131.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2d5e5c-d78a-407a-bf22-3141f2101d24")
+	)
+	(wire
+		(pts
+			(xy 85.344 58.166) (xy 85.344 59.944)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4bf4cb-acbd-4366-b122-d2b359a213de")
+	)
+	(wire
+		(pts
+			(xy 144.78 67.31) (xy 138.684 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1b57f7-2695-41dd-8206-5f446dfa400a")
+	)
+	(wire
+		(pts
+			(xy 172.974 78.486) (xy 171.45 78.486)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01671a4-4111-4514-b4f8-4728f506a398")
+	)
+	(wire
+		(pts
+			(xy 70.866 58.166) (xy 70.866 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2587b83-e89b-4d0d-959c-19bad5d0b1e4")
+	)
+	(wire
+		(pts
+			(xy 184.15 90.17) (xy 178.3817 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26b1b08-6d6b-4320-af95-29fb4fe59b22")
+	)
+	(wire
+		(pts
+			(xy 74.676 71.374) (xy 70.866 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7bbfea6-e28a-4c2d-88ee-d0f9cb7bff8b")
+	)
+	(wire
+		(pts
+			(xy 158.496 110.49) (xy 165.354 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99024cb-a224-49fe-b867-9f3862f32b5b")
+	)
+	(wire
+		(pts
+			(xy 112.522 96.774) (xy 97.79 96.774)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9cfe44f-aded-4ca6-b186-671b7e1662aa")
+	)
+	(wire
+		(pts
+			(xy 148.336 126.492) (xy 155.956 126.492)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc19406-628b-4f05-9048-4ae4ba3d330f")
+	)
+	(wire
+		(pts
+			(xy 76.708 71.374) (xy 76.708 72.644)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbe9ad5-35fe-4622-9494-a3f1de526f05")
+	)
+	(wire
+		(pts
+			(xy 163.83 78.486) (xy 158.496 78.486)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e193153f-82a0-4811-9e7e-52ff0bf37512")
+	)
+	(wire
+		(pts
+			(xy 158.496 78.486) (xy 158.496 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e1beab-89c9-45f5-b635-c7b2cc332062")
+	)
+	(wire
+		(pts
+			(xy 117.602 90.17) (xy 117.602 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36899e1-43cb-48fe-adcb-2d57e35d39ba")
+	)
+	(wire
+		(pts
+			(xy 248.412 72.39) (xy 246.38 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3973932-0aaf-48a9-8da1-ea051ed25725")
+	)
+	(wire
+		(pts
+			(xy 112.522 108.458) (xy 106.934 108.458)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4cf2151-8172-4db7-836a-359f67b2c9a7")
+	)
+	(wire
+		(pts
+			(xy 228.346 69.85) (xy 231.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5166279-e243-4dba-a24b-7f68db13a3a0")
+	)
+	(wire
+		(pts
+			(xy 68.326 126.492) (xy 68.326 131.826)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54c7386-d849-4d82-96b8-8f167d383657")
+	)
+	(wire
+		(pts
+			(xy 70.866 68.58) (xy 70.866 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e565e4cc-1e1f-4508-bcb2-cddd3a206fd7")
+	)
+	(wire
+		(pts
+			(xy 117.602 106.934) (xy 117.602 110.744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6aa45f5-af89-431c-b508-7f16c8c2e413")
+	)
+	(wire
+		(pts
+			(xy 117.602 78.994) (xy 110.236 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bd2d31-d259-4beb-b05c-1fc8e2588052")
+	)
+	(wire
+		(pts
+			(xy 106.934 128.27) (xy 115.062 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1e4e40-5086-435a-8353-36a80b83a656")
+	)
+	(wire
+		(pts
+			(xy 70.866 109.728) (xy 70.866 111.252)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab0551d-bae7-42b7-99df-8e6d33dcea7d")
+	)
+	(wire
+		(pts
+			(xy 203.962 70.612) (xy 203.962 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaec9c78-b599-4d18-84c1-4ece10d91e07")
+	)
+	(wire
+		(pts
+			(xy 117.602 90.17) (xy 111.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb773460-81ec-40cf-86f3-94d861460382")
+	)
+	(wire
+		(pts
+			(xy 158.496 90.17) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f379fccf-08e1-41a6-a8c8-38f75ad7ad76")
+	)
+	(wire
+		(pts
+			(xy 193.04 105.156) (xy 193.04 111.506)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f531db57-9950-483a-ac87-e24249042cc1")
+	)
+	(wire
+		(pts
+			(xy 115.062 128.27) (xy 115.062 125.984)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68d01ac-2df3-4051-8d5b-35e29494672a")
+	)
+	(wire
+		(pts
+			(xy 117.602 64.77) (xy 117.602 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69f38ce-7798-4842-a2fd-be444a1a6a9a")
+	)
+	(wire
+		(pts
+			(xy 104.14 68.58) (xy 97.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f778d6d9-711c-42a8-b5cb-43bb25912cb8")
+	)
+	(wire
+		(pts
+			(xy 102.616 78.994) (xy 97.79 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f933f673-7352-41d2-89fe-9881b44135da")
+	)
+	(wire
+		(pts
+			(xy 104.14 90.17) (xy 97.79 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa13903-42c3-44ce-ae99-2a860bce23d0")
+	)
+	(wire
+		(pts
+			(xy 186.436 124.206) (xy 186.436 126.746)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcdeaab-e449-4753-b1b9-bce8fec74292")
+	)
+	(wire
+		(pts
+			(xy 158.496 78.486) (xy 151.13 78.486)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda2e3a9-765a-4fc5-81c1-07395a3d2104")
+	)
+	(wire
+		(pts
+			(xy 198.12 105.156) (xy 198.12 110.998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4290ff-99d2-40a1-ba76-8d54ebdcafca")
+	)
+	(text "ANALOG INPUT"
+		(exclude_from_sim no)
+		(at 137.16 34.544 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "af31bb36-d7a1-4727-b52f-af448d794ff9")
+	)
+	(hierarchical_label "V3+"
+		(shape input)
+		(at 212.598 57.404 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "138ff16d-1c75-4556-81a6-591bed7b365f")
+	)
+	(hierarchical_label "B02"
+		(shape input)
+		(at 123.444 71.374 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "143fa31b-5034-4798-93a7-8e5304a55d20")
+	)
+	(hierarchical_label "A01"
+		(shape input)
+		(at 74.676 71.374 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "157914c8-c731-48eb-88d5-eb1f1f07cf79")
+	)
+	(hierarchical_label "B01"
+		(shape input)
+		(at 76.708 71.374 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bb763ee-7617-4dcd-8091-c7bb6084e568")
+	)
+	(hierarchical_label "A04"
+		(shape input)
+		(at 201.93 70.612 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f051bfe-1935-4839-b2c4-4a34c0916068")
+	)
+	(hierarchical_label "B04"
+		(shape input)
+		(at 203.962 70.612 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "216ff3bb-06d2-4b8e-90dd-5414edc31962")
+	)
+	(hierarchical_label "A02"
+		(shape input)
+		(at 121.412 71.374 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28259c23-d41a-4645-a362-0d7a3e74f412")
+	)
+	(hierarchical_label "A04"
+		(shape input)
+		(at 228.346 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d059032-f5fd-420f-aa1b-49ebbd72ce67")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 131.318 106.934 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fa6266b-b79b-4633-816b-80fe99974bef")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 213.868 110.998 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37d4f282-5e55-4813-9946-b520833bc39e")
+	)
+	(hierarchical_label "V1-"
+		(shape input)
+		(at 97.79 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40defea1-07e2-40fe-9192-7ef68e3044cf")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 90.678 109.728 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47983fe4-6f5b-4cb4-97ea-75c4ee136d53")
+	)
+	(hierarchical_label "I2+"
+		(shape input)
+		(at 158.496 57.658 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b004b9a-33aa-4a35-9b35-d4a30482e083")
+	)
+	(hierarchical_label "Analog 3"
+		(shape input)
+		(at 195.58 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5694346a-28f7-43ea-833f-a27b80798d3e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 224.028 111.506 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a6c5102-0fc4-4ffb-aee1-f309c6cc0410")
+	)
+	(hierarchical_label "B01"
+		(shape input)
+		(at 248.412 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cc164ce-ff8b-4207-a135-f33ced045c92")
+	)
+	(hierarchical_label "I0+"
+		(shape input)
+		(at 70.866 58.166 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "701eb208-953f-419b-a081-d67b987a6db4")
+	)
+	(hierarchical_label "V0-"
+		(shape input)
+		(at 51.054 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a51f9a3-8416-421d-9201-df35a33d24fc")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 224.028 96.266 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b82433b-212e-423d-b64c-30a081e3b17e")
+	)
+	(hierarchical_label "B03"
+		(shape input)
+		(at 248.412 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "815f467f-330c-4229-b7f3-249b529bca7e")
+	)
+	(hierarchical_label "V3-"
+		(shape input)
+		(at 178.308 57.658 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f782e00-f4bf-450e-8afa-a9a4078c0375")
+	)
+	(hierarchical_label "A03"
+		(shape input)
+		(at 228.346 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "940c0126-a313-4a12-9567-b6f05ffdde43")
+	)
+	(hierarchical_label "B04"
+		(shape input)
+		(at 248.412 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "948f8c7f-f83a-4eb6-be93-a341024775e3")
+	)
+	(hierarchical_label "A02"
+		(shape input)
+		(at 228.346 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9961a09f-91ae-49d2-b0d0-6184dfd07700")
+	)
+	(hierarchical_label "I1+"
+		(shape input)
+		(at 117.602 58.166 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a93c7823-048a-48e1-8391-4b2a3c655c08")
+	)
+	(hierarchical_label "Analog 0"
+		(shape input)
+		(at 68.326 131.826 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a95fda00-c512-4f60-bba8-264233bb6649")
+	)
+	(hierarchical_label "V1+"
+		(shape input)
+		(at 132.08 58.166 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aaed2c4f-67b7-46bc-add8-a78c33fa9a2e")
+	)
+	(hierarchical_label "B03"
+		(shape input)
+		(at 164.338 70.866 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aba06520-9865-4432-ab24-65c67836598a")
+	)
+	(hierarchical_label "V2+"
+		(shape input)
+		(at 172.974 57.658 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad321922-1d72-4ca4-8e8e-8b962efc08e8")
+	)
+	(hierarchical_label "A03"
+		(shape input)
+		(at 162.306 70.866 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be9c0931-d9dc-4dbf-9fbc-ce2929725bb2")
+	)
+	(hierarchical_label "V0+"
+		(shape input)
+		(at 85.344 58.166 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca5e4559-67c2-4a68-b288-029d6d020da8")
+	)
+	(hierarchical_label "V2-"
+		(shape input)
+		(at 138.684 57.912 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc5c7d9b-9a02-4a0d-8f01-a1c8bb140443")
+	)
+	(hierarchical_label "Analog 2"
+		(shape input)
+		(at 155.956 131.826 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d45b5dd5-1624-45ad-b0e7-92371d3a1cf7")
+	)
+	(hierarchical_label "B02"
+		(shape input)
+		(at 248.412 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d58674be-e65c-45bd-b232-1e4c8dab638a")
+	)
+	(hierarchical_label "I3+"
+		(shape input)
+		(at 198.12 57.404 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d70c8731-df2d-4fcb-a0c6-6c724f1e6f8b")
+	)
+	(hierarchical_label "Analog 1"
+		(shape input)
+		(at 115.062 131.318 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8f5a463-9b0a-43aa-852b-17541158f5f3")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 172.974 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df0bf7b7-dda3-4eae-a332-13efcda66adf")
+	)
+	(hierarchical_label "A01"
+		(shape input)
+		(at 228.346 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f412e3a4-240d-4268-b90b-a7c8cb35d0ab")
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 193.04 101.346 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "021ca9e5-93f5-43ef-908f-05c92ec462bb")
+		(property "Reference" "RN4"
+			(at 186.182 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 186.182 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 191.008 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 193.04 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 193.04 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "00b333cd-4de1-4a51-887f-f889e3af4233")
+		)
+		(pin "1"
+			(uuid "9c5ccafb-a968-4e01-b0a7-b8402a16845e")
+		)
+		(pin "3"
+			(uuid "f66cf62b-ac2d-4c7b-aced-50f79d2787a7")
+		)
+		(pin "2"
+			(uuid "8f33f4f5-745e-4839-b372-c06fd1f08a2f")
+		)
+		(pin "5"
+			(uuid "21c28cef-1906-4d82-b8f6-8cd12b1a962f")
+		)
+		(pin "7"
+			(uuid "921a509f-66f3-46a0-a631-856b943e277e")
+		)
+		(pin "4"
+			(uuid "0caa28cd-bdb1-4afe-aec0-c7875925f709")
+		)
+		(pin "6"
+			(uuid "9ba9f165-ad8b-481f-a4f1-361da4f4e3bc")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 158.496 101.6 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "110d8401-80c8-404c-9d64-737fc60e8d48")
+		(property "Reference" "RN4"
+			(at 161.29 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 161.29 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 156.464 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.496 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 158.496 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 158.496 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "00b333cd-4de1-4a51-887f-f889e3af4234")
+		)
+		(pin "1"
+			(uuid "9c5ccafb-a968-4e01-b0a7-b8402a16845f")
+		)
+		(pin "3"
+			(uuid "f66cf62b-ac2d-4c7b-aced-50f79d2787a8")
+		)
+		(pin "2"
+			(uuid "8f33f4f5-745e-4839-b372-c06fd1f08a30")
+		)
+		(pin "5"
+			(uuid "21c28cef-1906-4d82-b8f6-8cd12b1a9630")
+		)
+		(pin "7"
+			(uuid "921a509f-66f3-46a0-a631-856b943e277f")
+		)
+		(pin "4"
+			(uuid "0caa28cd-bdb1-4afe-aec0-c7875925f70a")
+		)
+		(pin "6"
+			(uuid "9ba9f165-ad8b-481f-a4f1-361da4f4e3bd")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 207.264 78.232 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14c8067e-9a4d-4078-a23c-a44d2fda0b60")
+		(property "Reference" "R26"
+			(at 207.264 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510k"
+			(at 207.264 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 207.264 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.264 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.264 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17733"
+			(at 207.264 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 207.264 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4583381d-1b01-4b65-8db1-d8a1bf14d544")
+		)
+		(pin "2"
+			(uuid "bf7e7cf7-dead-491d-9c9f-4e35dc78f79e")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 78.486 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2067c22e-81f4-460f-80c1-d5c7a0cb9d55")
+		(property "Reference" "R22"
+			(at 167.64 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510k"
+			(at 167.64 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 167.64 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17733"
+			(at 167.64 78.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 167.64 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8476ea99-3cbf-46d8-a997-0b85bfc39297")
+		)
+		(pin "2"
+			(uuid "24f6d59f-71b8-487a-9281-d436178d12af")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 78.486 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2641d89e-caea-415f-946a-dcc4f90b6d50")
+		(property "Reference" "R21"
+			(at 147.32 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510k"
+			(at 147.32 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 147.32 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17733"
+			(at 147.32 78.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 147.32 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8878f0b-aea6-4ebb-9fcc-dbd864682773")
+		)
+		(pin "2"
+			(uuid "d1ded71e-d6b7-44d9-aac6-3b4b1fda66f2")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 68.326 118.872 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c2ea5e5-9b2c-42b7-9a1c-27bf2b6813db")
+		(property "Reference" "U4"
+			(at 73.152 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM324"
+			(at 73.152 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+			(at 70.866 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 73.406 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 68.326 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7943"
+			(at 68.326 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 68.326 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19027f0c-6255-462f-8be2-342336e02acc")
+		)
+		(pin "2"
+			(uuid "b4ddb1b5-e7e6-4ad3-b564-f16999afa86f")
+		)
+		(pin "3"
+			(uuid "ef1d670d-1659-4b67-b49d-94c043c198dc")
+		)
+		(pin "5"
+			(uuid "8ee7a2c7-f8b4-46a3-8958-b94a904a005b")
+		)
+		(pin "6"
+			(uuid "34b9d245-3a18-4e84-ad26-fb1268c5d907")
+		)
+		(pin "7"
+			(uuid "5f91b4b6-b1af-477c-89f9-f3357f8db221")
+		)
+		(pin "10"
+			(uuid "6fa221fc-db36-4f8e-bf80-fe5055888eb0")
+		)
+		(pin "8"
+			(uuid "eec22ce0-6008-4e73-b4db-7796ff7572eb")
+		)
+		(pin "9"
+			(uuid "ada317aa-6419-4048-bf3a-3c359bc939a4")
+		)
+		(pin "12"
+			(uuid "31f63932-adc0-4fb8-8233-3b00b8338238")
+		)
+		(pin "13"
+			(uuid "fc35b158-2777-4378-9661-a6b917f5ae48")
+		)
+		(pin "14"
+			(uuid "a40aab3c-5f78-4075-a3f2-3090e256dc0c")
+		)
+		(pin "11"
+			(uuid "d84ee5ff-b660-4ed1-b873-3fc66e7a01a7")
+		)
+		(pin "4"
+			(uuid "74b011f4-f489-4a50-9856-8bd125761ede")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 169.164 110.49 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cbc49f0-f43a-4805-aef1-caa3162ac651")
+		(property "Reference" "RN1"
+			(at 169.164 104.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 169.164 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 169.164 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 169.164 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 169.164 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 169.164 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0a2aa4de-2388-4f07-b377-4c9b6fb824da")
+		)
+		(pin "4"
+			(uuid "b28fc75a-2aa2-49dd-97b5-eccd42af76a0")
+		)
+		(pin "5"
+			(uuid "c9af887f-8935-43e5-b83f-9d264e1b8d6d")
+		)
+		(pin "2"
+			(uuid "f221abc7-52f2-4b6d-ac30-8e4d4e6d6cef")
+		)
+		(pin "7"
+			(uuid "41b022ca-29f4-4615-b6cf-c4e905e44e5d")
+		)
+		(pin "1"
+			(uuid "6451e0b0-063c-488f-86e5-b228693479e3")
+		)
+		(pin "3"
+			(uuid "644977a1-d3d9-4828-99e4-3d1c7cf4c369")
+		)
+		(pin "8"
+			(uuid "88bc0b7f-0bd3-41a7-99b6-8c5ea3cd18c2")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 107.95 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "332cf8d6-c76f-41e8-a2c5-cb327d275396")
+		(property "Reference" "D4"
+			(at 109.474 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS_SMBJ28A"
+			(at 113.792 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C113997"
+			(at 107.95 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b18545f6-2cac-4a17-8f0b-fd0aab7a1ab2")
+		)
+		(pin "2"
+			(uuid "6806c1e1-f313-4b29-8f12-70320f8fa863")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 86.868 109.728 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aa3d93d-1702-4873-bf28-6857d6dd1218")
+		(property "Reference" "RN1"
+			(at 86.868 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.868 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 86.868 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.868 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 86.868 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 86.868 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0a2aa4de-2388-4f07-b377-4c9b6fb824db")
+		)
+		(pin "4"
+			(uuid "50eaa118-43d7-41f7-a6a5-2af7b9d93243")
+		)
+		(pin "5"
+			(uuid "cb9eee57-e629-488d-a07d-37c9a3372f3e")
+		)
+		(pin "2"
+			(uuid "f221abc7-52f2-4b6d-ac30-8e4d4e6d6cf0")
+		)
+		(pin "7"
+			(uuid "41b022ca-29f4-4615-b6cf-c4e905e44e5e")
+		)
+		(pin "1"
+			(uuid "6451e0b0-063c-488f-86e5-b228693479e4")
+		)
+		(pin "3"
+			(uuid "644977a1-d3d9-4828-99e4-3d1c7cf4c36a")
+		)
+		(pin "8"
+			(uuid "88bc0b7f-0bd3-41a7-99b6-8c5ea3cd18c3")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 65.786 105.156 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c3f2279-5f25-4eae-9415-d2928104b3d3")
+		(property "Reference" "RN3"
+			(at 59.182 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 59.182 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 63.754 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.786 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 65.786 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 65.786 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "00b333cd-4de1-4a51-887f-f889e3af4235")
+		)
+		(pin "1"
+			(uuid "9c5ccafb-a968-4e01-b0a7-b8402a168460")
+		)
+		(pin "3"
+			(uuid "f66cf62b-ac2d-4c7b-aced-50f79d2787a9")
+		)
+		(pin "2"
+			(uuid "8f33f4f5-745e-4839-b372-c06fd1f08a31")
+		)
+		(pin "5"
+			(uuid "21c28cef-1906-4d82-b8f6-8cd12b1a9631")
+		)
+		(pin "7"
+			(uuid "921a509f-66f3-46a0-a631-856b943e2780")
+		)
+		(pin "4"
+			(uuid "0caa28cd-bdb1-4afe-aec0-c7875925f70b")
+		)
+		(pin "6"
+			(uuid "9ba9f165-ad8b-481f-a4f1-361da4f4e3be")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 212.598 61.722 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d11e0ef-ad87-44a6-9734-2b4da6bc7339")
+		(property "Reference" "F8"
+			(at 211.074 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150 mA"
+			(at 215.138 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 212.598 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.598 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 212.598 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20797"
+			(at 212.598 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 212.598 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfd7e938-49b7-484c-9105-389e842fd4cc")
+		)
+		(pin "2"
+			(uuid "e4801fcd-8ece-4740-9295-20d08b89e127")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 226.568 103.886 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5354516b-1f2c-46c1-b5d9-674d6077fb5e")
+		(property "Reference" "U4"
+			(at 225.044 102.6159 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM324"
+			(at 225.044 105.1559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+			(at 225.298 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 227.838 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 226.568 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7943"
+			(at 226.568 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 226.568 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "506bb12e-65cf-4c18-ad0c-7ad5c342bff7")
+		)
+		(pin "2"
+			(uuid "7dafdd21-1fb2-477f-83a3-3b032659891f")
+		)
+		(pin "3"
+			(uuid "b65aae60-f6ee-4674-ab4a-390678f9ffa2")
+		)
+		(pin "5"
+			(uuid "8c9560a4-ce1d-4a1e-b507-0b5560247141")
+		)
+		(pin "6"
+			(uuid "156f1171-75f3-4cf6-b639-fe8bfcb1c945")
+		)
+		(pin "7"
+			(uuid "81bd3102-72c0-4dc9-80ae-7ff75442c3d0")
+		)
+		(pin "10"
+			(uuid "f721330d-7d74-4f58-87c0-4df8e7ae1e72")
+		)
+		(pin "8"
+			(uuid "ab7f9d27-ac1c-4a98-bc36-0adc1ff6f9a4")
+		)
+		(pin "9"
+			(uuid "a0506b24-f9ff-4bed-8e91-a1277ca34928")
+		)
+		(pin "12"
+			(uuid "458312c7-01cf-4cd1-85f7-7a17296df493")
+		)
+		(pin "13"
+			(uuid "4c9d9c9d-ab84-41e2-b2f9-e002711bdf4c")
+		)
+		(pin "14"
+			(uuid "a0cc5a30-86b9-49dc-be41-731cbaf518da")
+		)
+		(pin "11"
+			(uuid "9cbdf8dc-b03e-4909-95f5-1ca70f567574")
+		)
+		(pin "4"
+			(uuid "2cb3d1a5-9f9c-45dd-8d49-23b465f52770")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "U4")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 172.974 61.976 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55828810-b6f2-4648-9054-4e301fa25671")
+		(property "Reference" "F6"
+			(at 171.196 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150 mA"
+			(at 175.514 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 172.974 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.974 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 172.974 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20797"
+			(at 172.974 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 172.974 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b14684f2-716b-42b8-93c5-4ddc1746cee0")
+		)
+		(pin "2"
+			(uuid "5e062d89-72b9-443c-818c-adcc592821ea")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 126.746 78.994 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55b624c5-c0cf-4d22-b7e8-c1b4433e065b")
+		(property "Reference" "R18"
+			(at 126.746 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510k"
+			(at 126.746 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 126.746 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 126.746 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 126.746 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17733"
+			(at 126.746 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 126.746 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee978e71-d5f7-4645-b53b-374210edd5ba")
+		)
+		(pin "2"
+			(uuid "d8d73c30-d241-4bd8-9138-5c0a889c2c87")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 117.602 100.33 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5789c06a-1867-48a7-807b-83623e6cc64e")
+		(property "Reference" "RN3"
+			(at 119.38 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 119.38 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 115.57 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.602 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 117.602 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 117.602 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "00b333cd-4de1-4a51-887f-f889e3af4236")
+		)
+		(pin "1"
+			(uuid "9c5ccafb-a968-4e01-b0a7-b8402a168461")
+		)
+		(pin "3"
+			(uuid "f66cf62b-ac2d-4c7b-aced-50f79d2787aa")
+		)
+		(pin "2"
+			(uuid "8f33f4f5-745e-4839-b372-c06fd1f08a32")
+		)
+		(pin "5"
+			(uuid "21c28cef-1906-4d82-b8f6-8cd12b1a9632")
+		)
+		(pin "7"
+			(uuid "921a509f-66f3-46a0-a631-856b943e2781")
+		)
+		(pin "4"
+			(uuid "0caa28cd-bdb1-4afe-aec0-c7875925f70c")
+		)
+		(pin "6"
+			(uuid "9ba9f165-ad8b-481f-a4f1-361da4f4e3bf")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 198.12 101.346 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57fb42ba-7d05-4780-a08d-1bd7b1af1fe4")
+		(property "Reference" "RN4"
+			(at 199.898 100.0759 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 199.898 102.6159 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 196.088 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 198.12 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 198.12 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "00b333cd-4de1-4a51-887f-f889e3af4237")
+		)
+		(pin "1"
+			(uuid "9c5ccafb-a968-4e01-b0a7-b8402a168462")
+		)
+		(pin "3"
+			(uuid "f66cf62b-ac2d-4c7b-aced-50f79d2787ab")
+		)
+		(pin "2"
+			(uuid "8f33f4f5-745e-4839-b372-c06fd1f08a33")
+		)
+		(pin "5"
+			(uuid "21c28cef-1906-4d82-b8f6-8cd12b1a9633")
+		)
+		(pin "7"
+			(uuid "921a509f-66f3-46a0-a631-856b943e2782")
+		)
+		(pin "4"
+			(uuid "0caa28cd-bdb1-4afe-aec0-c7875925f70d")
+		)
+		(pin "6"
+			(uuid "9ba9f165-ad8b-481f-a4f1-361da4f4e3c0")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 85.344 62.484 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dbdedd4-4e76-48cf-aa99-eddbe8f0b6f8")
+		(property "Reference" "F2"
+			(at 83.566 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150 mA"
+			(at 87.884 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 85.344 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.344 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 85.344 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20797"
+			(at 85.344 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 85.344 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0537eb36-2b42-4c99-a5b5-2b4d90daf0ea")
+		)
+		(pin "2"
+			(uuid "2b178a07-aa2c-48df-8c83-5671e3032a55")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 155.956 118.872 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5deb9fb0-6790-40b2-b479-a15fee1f83d0")
+		(property "Reference" "U4"
+			(at 162.814 117.6019 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM324"
+			(at 162.814 120.1419 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+			(at 158.496 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 161.036 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 155.956 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7943"
+			(at 155.956 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 155.956 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b2838da-aae3-4d03-b66f-47bb8935f74a")
+		)
+		(pin "2"
+			(uuid "0fd3a459-a077-4fdb-bf33-8019706ecf4e")
+		)
+		(pin "3"
+			(uuid "7d504204-bdc6-4ab5-b844-366c6da79403")
+		)
+		(pin "5"
+			(uuid "25cd8e88-dfb7-4939-bf61-669a543e2f80")
+		)
+		(pin "6"
+			(uuid "4cbf4068-85e8-4727-b9cf-c224246d51fe")
+		)
+		(pin "7"
+			(uuid "1e183ddd-423b-42fa-b254-85b431671838")
+		)
+		(pin "10"
+			(uuid "4dbc90dd-5acc-4ac6-91b4-84bd4e47f8fa")
+		)
+		(pin "8"
+			(uuid "3d29d969-ded9-4dee-953d-d35e7d793644")
+		)
+		(pin "9"
+			(uuid "23fa712c-6197-4782-a062-367d4ffde85f")
+		)
+		(pin "12"
+			(uuid "e82f3314-bde4-422b-aa43-e187e02a0a89")
+		)
+		(pin "13"
+			(uuid "617fb82f-7f50-4f62-b06d-4c985a4b5adc")
+		)
+		(pin "14"
+			(uuid "6d219f1e-b431-44b7-86f8-af49f51f68eb")
+		)
+		(pin "11"
+			(uuid "1437ad7f-73cf-484a-b165-fb27f490d058")
+		)
+		(pin "4"
+			(uuid "b2fbb443-3b78-4330-81a2-23591e39885b")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.426 78.994 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "641b51d4-26b2-4c83-8641-4a850521983e")
+		(property "Reference" "R17"
+			(at 106.426 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510k"
+			(at 106.426 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 106.426 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.426 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.426 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17733"
+			(at 106.426 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 106.426 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1504b726-25d4-4b6c-a6f5-bff179df4195")
+		)
+		(pin "2"
+			(uuid "31651589-5612-4ba1-902a-91716b2ccf1c")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6877b823-225a-47c0-9ea0-b31e61a3ce74")
+		(property "Reference" "R15"
+			(at 106.172 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 106.934 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 107.95 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828765"
+			(at 107.95 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef0e4a4-1327-413c-8a38-3d4674352f86")
+		)
+		(pin "2"
+			(uuid "595643af-e390-417e-bc4e-cd32b4cbd58a")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 60.96 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7232cf28-ab90-4311-9e5c-85c959012323")
+		(property "Reference" "D3"
+			(at 62.2301 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS_SMBJ28A"
+			(at 66.548 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C113997"
+			(at 60.96 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "097dd892-db28-4919-88f8-e4e7e7591a7e")
+		)
+		(pin "2"
+			(uuid "f55766fc-a76f-44d6-8cd5-65d3cd1c780c")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 186.436 120.396 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7431a773-ee09-4b7f-9507-276fbcc31f64")
+		(property "Reference" "RN2"
+			(at 180.594 122.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 183.388 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 184.404 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.436 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 186.436 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 186.436 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "347d3987-063c-4bec-9792-4d01aee827b1")
+		)
+		(pin "8"
+			(uuid "c5a945f6-00ed-4d5f-8ef1-3ff718df9851")
+		)
+		(pin "7"
+			(uuid "3d537754-aaf2-46aa-ad35-5ffed22f5f76")
+		)
+		(pin "6"
+			(uuid "e12c4f36-5e22-480f-b4e6-58f577b3ccff")
+		)
+		(pin "3"
+			(uuid "5cacf18d-1fcd-4651-85b3-f3706baa3daf")
+		)
+		(pin "4"
+			(uuid "fe767c87-d639-4503-9572-c5e9e3ea09c3")
+		)
+		(pin "5"
+			(uuid "702c43e7-3f18-419d-b866-3e13e4443879")
+		)
+		(pin "2"
+			(uuid "90713923-6f8f-4d05-8867-5751eb61d33e")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 70.866 105.156 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79c9cd55-8d56-43ee-a12b-9c6d6fb6a232")
+		(property "Reference" "RN3"
+			(at 72.644 103.8859 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 72.644 106.4259 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 68.834 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 70.866 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 70.866 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 70.866 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "00b333cd-4de1-4a51-887f-f889e3af4238")
+		)
+		(pin "1"
+			(uuid "9c5ccafb-a968-4e01-b0a7-b8402a168463")
+		)
+		(pin "3"
+			(uuid "f66cf62b-ac2d-4c7b-aced-50f79d2787ac")
+		)
+		(pin "2"
+			(uuid "8f33f4f5-745e-4839-b372-c06fd1f08a34")
+		)
+		(pin "5"
+			(uuid "21c28cef-1906-4d82-b8f6-8cd12b1a9634")
+		)
+		(pin "7"
+			(uuid "921a509f-66f3-46a0-a631-856b943e2783")
+		)
+		(pin "4"
+			(uuid "0caa28cd-bdb1-4afe-aec0-c7875925f70e")
+		)
+		(pin "6"
+			(uuid "9ba9f165-ad8b-481f-a4f1-361da4f4e3c1")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 78.994 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bf824a9-6a76-4b30-bd25-4f62bffdc5e2")
+		(property "Reference" "R14"
+			(at 81.2801 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "510k"
+			(at 78.7401 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 80.01 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17733"
+			(at 80.01 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 80.01 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48312aa6-43c5-493f-99c0-ae8546077397")
+		)
+		(pin "2"
+			(uuid "9dc6b655-d205-424f-bcef-07a696bdf7bd")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.944 78.232 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c7eefc0-4f5d-4acf-9c41-b56988501441")
+		(property "Reference" "R25"
+			(at 186.944 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510k"
+			(at 186.944 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 186.944 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.944 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 186.944 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17733"
+			(at 186.944 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 186.944 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4441576d-08f6-4b36-a543-54985d8d0f68")
+		)
+		(pin "2"
+			(uuid "da78324c-9d63-47ac-93c9-4338860ee441")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 117.602 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "830eb9bc-15d1-46c3-a2a7-52769da7c832")
+		(property "Reference" "F3"
+			(at 116.078 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150 mA"
+			(at 120.142 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 117.602 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.602 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 117.602 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20797"
+			(at 117.602 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 117.602 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0215ffa-3b8f-4e85-a9b5-a54522547566")
+		)
+		(pin "2"
+			(uuid "60127a14-0fd8-478f-a8b1-e64a44ea641f")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 195.58 119.126 270)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8378a0df-6b56-4e88-8ff2-755e9ed8349e")
+		(property "Reference" "U4"
+			(at 201.422 117.8559 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM324"
+			(at 201.422 120.3959 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+			(at 198.12 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 200.66 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 195.58 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7943"
+			(at 195.58 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 195.58 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "645d76aa-f8fe-4a25-9c38-7ca47955977e")
+		)
+		(pin "2"
+			(uuid "bd2530f1-053d-45c8-aa8b-8709cc341be4")
+		)
+		(pin "3"
+			(uuid "c68c758a-08ef-4fc0-97a3-8c778dfe3820")
+		)
+		(pin "5"
+			(uuid "dcaf0725-71e8-4419-be03-5d109a7676bc")
+		)
+		(pin "6"
+			(uuid "031315a0-d94a-4d32-8dc8-41f70398a200")
+		)
+		(pin "7"
+			(uuid "306ff96b-d651-4de6-b13b-b7eba8aa6e7b")
+		)
+		(pin "10"
+			(uuid "b06f00ff-821d-4099-a0c4-1f42f4b5cc7e")
+		)
+		(pin "8"
+			(uuid "c41b7afe-91d9-418c-bfd5-009383872924")
+		)
+		(pin "9"
+			(uuid "375706b8-09a6-4e28-9e40-726746395831")
+		)
+		(pin "12"
+			(uuid "a30b7973-42e6-44b3-ab86-7be044628bf0")
+		)
+		(pin "13"
+			(uuid "186983f8-dc15-451c-afc1-b55e543dd1b8")
+		)
+		(pin "14"
+			(uuid "238cab0b-fad2-4b00-b028-4dee0292ebcf")
+		)
+		(pin "11"
+			(uuid "e6446f19-ddc6-4444-9db1-34b66450ec20")
+		)
+		(pin "4"
+			(uuid "7a523382-ad54-41cd-867e-b1dd9467bc2c")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 70.866 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "952fc428-9823-4093-9518-3cabd3f6ff50")
+		(property "Reference" "F1"
+			(at 69.088 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150 mA"
+			(at 73.406 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 70.866 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 70.866 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 70.866 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20797"
+			(at 70.866 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 70.866 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2a51532-bd25-4520-95c1-03ff8827f3ab")
+		)
+		(pin "2"
+			(uuid "f9d44382-d986-4527-991f-f4ad6d06fec7")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "970c627a-cade-447e-8503-850ba290d5f9")
+		(property "Reference" "R11"
+			(at 60.96 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 60.96 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 60.96 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828765"
+			(at 60.96 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df2e7b47-66f4-4586-a016-22eb7a05b2b5")
+		)
+		(pin "2"
+			(uuid "b54aa735-086e-4f5e-8821-f59e85300fc3")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 112.522 100.584 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1959b56-de32-4243-bf84-3b86acdcbfae")
+		(property "Reference" "RN3"
+			(at 105.664 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 105.664 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 110.49 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 112.522 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 112.522 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 112.522 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "00b333cd-4de1-4a51-887f-f889e3af4239")
+		)
+		(pin "1"
+			(uuid "9c5ccafb-a968-4e01-b0a7-b8402a168464")
+		)
+		(pin "3"
+			(uuid "f66cf62b-ac2d-4c7b-aced-50f79d2787ad")
+		)
+		(pin "2"
+			(uuid "8f33f4f5-745e-4839-b372-c06fd1f08a35")
+		)
+		(pin "5"
+			(uuid "21c28cef-1906-4d82-b8f6-8cd12b1a9635")
+		)
+		(pin "7"
+			(uuid "921a509f-66f3-46a0-a631-856b943e2784")
+		)
+		(pin "4"
+			(uuid "0caa28cd-bdb1-4afe-aec0-c7875925f70f")
+		)
+		(pin "6"
+			(uuid "9ba9f165-ad8b-481f-a4f1-361da4f4e3c2")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 78.994 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a814ff54-de37-40a0-93c8-37f4a331f8c1")
+		(property "Reference" "R13"
+			(at 59.69 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510k"
+			(at 59.944 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 59.69 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17733"
+			(at 59.69 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 59.69 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5178828-f6bb-4a2e-8ee5-189639950e01")
+		)
+		(pin "2"
+			(uuid "bf911e3c-be58-4743-97ea-a865626d9f88")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 127.508 106.934 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab22b633-23ae-42e7-ba8b-f501f686e7e6")
+		(property "Reference" "RN1"
+			(at 127.508 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 127.508 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 127.508 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.508 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 127.508 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 127.508 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0a2aa4de-2388-4f07-b377-4c9b6fb824dc")
+		)
+		(pin "4"
+			(uuid "b28fc75a-2aa2-49dd-97b5-eccd42af76a1")
+		)
+		(pin "5"
+			(uuid "c9af887f-8935-43e5-b83f-9d264e1b8d6e")
+		)
+		(pin "2"
+			(uuid "f221abc7-52f2-4b6d-ac30-8e4d4e6d6cf1")
+		)
+		(pin "7"
+			(uuid "41b022ca-29f4-4615-b6cf-c4e905e44e5f")
+		)
+		(pin "1"
+			(uuid "6451e0b0-063c-488f-86e5-b228693479e5")
+		)
+		(pin "3"
+			(uuid "644977a1-d3d9-4828-99e4-3d1c7cf4c36b")
+		)
+		(pin "8"
+			(uuid "88bc0b7f-0bd3-41a7-99b6-8c5ea3cd18c4")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 132.08 62.484 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "affea9dd-71f4-4cf7-b886-a369e9f52bb1")
+		(property "Reference" "F4"
+			(at 130.048 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150 mA"
+			(at 134.62 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 132.08 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 132.08 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20797"
+			(at 132.08 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 132.08 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0e343a7-c0de-44bf-ada1-8afd5dbdbafb")
+		)
+		(pin "2"
+			(uuid "902b16a4-649a-45a1-b1a8-3e56ae5a277c")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 187.96 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b53d4041-fdc8-4c9a-ad53-44056a5cdc18")
+		(property "Reference" "D6"
+			(at 189.2301 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS_SMBJ28A"
+			(at 193.802 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C113997"
+			(at 187.96 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc5bae30-5c52-4fd0-951f-75204a6cc2fd")
+		)
+		(pin "2"
+			(uuid "ca80964d-7a48-476a-9308-1fbc221ba385")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 148.59 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7fdc8c5-616f-4378-a744-fa11e8ddc7de")
+		(property "Reference" "D5"
+			(at 149.8601 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS_SMBJ28A"
+			(at 154.178 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C113997"
+			(at 148.59 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25cf5f8c-82c0-47bf-b341-398145314690")
+		)
+		(pin "2"
+			(uuid "ef25d1ae-d118-498f-bf48-0bec7b483e3a")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 106.934 118.872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c157f73e-a33d-4850-9d93-bd71dadd39ae")
+		(property "Reference" "RN2"
+			(at 102.362 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 104.14 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 104.902 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.934 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 106.934 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 106.934 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "347d3987-063c-4bec-9792-4d01aee827b2")
+		)
+		(pin "8"
+			(uuid "c5a945f6-00ed-4d5f-8ef1-3ff718df9852")
+		)
+		(pin "7"
+			(uuid "3d537754-aaf2-46aa-ad35-5ffed22f5f77")
+		)
+		(pin "6"
+			(uuid "e12c4f36-5e22-480f-b4e6-58f577b3cd00")
+		)
+		(pin "3"
+			(uuid "5cacf18d-1fcd-4651-85b3-f3706baa3db0")
+		)
+		(pin "4"
+			(uuid "fe767c87-d639-4503-9572-c5e9e3ea09c4")
+		)
+		(pin "5"
+			(uuid "702c43e7-3f18-419d-b866-3e13e444387a")
+		)
+		(pin "2"
+			(uuid "90713923-6f8f-4d05-8867-5751eb61d33f")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c24dc6da-7f9d-45a6-b788-21946af65b13")
+		(property "Reference" "R19"
+			(at 148.59 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 148.59 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 148.59 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828765"
+			(at 148.59 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50e358b4-c714-46d9-8b27-974054abb6b5")
+		)
+		(pin "2"
+			(uuid "881540c1-6ded-4fb4-b3df-72df2d7da4e4")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DIP_x04")
+		(at 238.76 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c53d59b3-e6d9-4079-8648-75fd16c0d0f7")
+		(property "Reference" "SW2"
+			(at 238.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DIP_x04"
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C840579"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "075e0caf-4b59-4191-8bc3-e0aa771083ce")
+		)
+		(pin "2"
+			(uuid "ec2e4515-02bc-42df-a064-407673d91d77")
+		)
+		(pin "3"
+			(uuid "71ab1409-9915-4189-b2c5-083c64ff8a7a")
+		)
+		(pin "4"
+			(uuid "b92b8f5c-1d60-4365-928e-8b524dffd4b6")
+		)
+		(pin "5"
+			(uuid "791773ca-c78a-427b-8cd0-e36c50b97a6b")
+		)
+		(pin "6"
+			(uuid "2768bd81-c6c5-49dd-a6e9-32e3bd561971")
+		)
+		(pin "7"
+			(uuid "436065a2-f6bf-4e41-aefb-6b9708b88b84")
+		)
+		(pin "8"
+			(uuid "cccc3dc1-ecd3-4d18-be83-56551e3d3f85")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 56.896 119.38 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c669ba01-f05b-4790-b8fa-4d51019fce3d")
+		(property "Reference" "RN2"
+			(at 51.308 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 53.848 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 54.864 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 56.896 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 56.896 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 56.896 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "347d3987-063c-4bec-9792-4d01aee827b3")
+		)
+		(pin "8"
+			(uuid "c5a945f6-00ed-4d5f-8ef1-3ff718df9853")
+		)
+		(pin "7"
+			(uuid "3d537754-aaf2-46aa-ad35-5ffed22f5f78")
+		)
+		(pin "6"
+			(uuid "e12c4f36-5e22-480f-b4e6-58f577b3cd01")
+		)
+		(pin "3"
+			(uuid "5cacf18d-1fcd-4651-85b3-f3706baa3db1")
+		)
+		(pin "4"
+			(uuid "fe767c87-d639-4503-9572-c5e9e3ea09c5")
+		)
+		(pin "5"
+			(uuid "702c43e7-3f18-419d-b866-3e13e444387b")
+		)
+		(pin "2"
+			(uuid "90713923-6f8f-4d05-8867-5751eb61d340")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 115.062 118.364 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cac744cf-3a92-468b-b31f-a0483b6117ac")
+		(property "Reference" "U4"
+			(at 121.92 117.0939 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM324"
+			(at 121.92 119.6339 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+			(at 117.602 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 120.142 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 115.062 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7943"
+			(at 115.062 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 115.062 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0ce8f42-71ec-4b3c-8fdb-5013c1430b5e")
+		)
+		(pin "2"
+			(uuid "c1aa3341-9815-4258-9fb4-ee1111657fba")
+		)
+		(pin "3"
+			(uuid "56bd6ae1-b6f6-4a67-a625-612cb37af6a6")
+		)
+		(pin "5"
+			(uuid "7f49655b-3f47-42d6-9bac-077aedd7b5f6")
+		)
+		(pin "6"
+			(uuid "03337e0d-bc7f-4729-a445-e85288d0c041")
+		)
+		(pin "7"
+			(uuid "93b5b285-3c72-4f8f-9922-2b4cb7dd2e0e")
+		)
+		(pin "10"
+			(uuid "97fe35a8-6124-499f-96bd-78e5b9bcdd33")
+		)
+		(pin "8"
+			(uuid "68242370-6acf-407b-a45e-bdbab6a24708")
+		)
+		(pin "9"
+			(uuid "661199ad-9f31-415b-b859-1dbf0f3acf28")
+		)
+		(pin "12"
+			(uuid "200d2914-449e-482e-aa44-0c994b0fe283")
+		)
+		(pin "13"
+			(uuid "52a74deb-f995-494c-85a8-7741c7c7ec83")
+		)
+		(pin "14"
+			(uuid "ff33d9da-7fda-4e05-a782-585ba802c69e")
+		)
+		(pin "11"
+			(uuid "5cc59c44-1c15-49e0-a3d7-a528b182c1ae")
+		)
+		(pin "4"
+			(uuid "fe70064d-b166-483a-96da-4dd2b8411f20")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 148.336 119.888 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d06c6195-7065-4548-9110-ad7f40bed40c")
+		(property "Reference" "RN2"
+			(at 143.51 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 145.542 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 146.304 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.336 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 148.336 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 148.336 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "347d3987-063c-4bec-9792-4d01aee827b4")
+		)
+		(pin "8"
+			(uuid "c5a945f6-00ed-4d5f-8ef1-3ff718df9854")
+		)
+		(pin "7"
+			(uuid "3d537754-aaf2-46aa-ad35-5ffed22f5f79")
+		)
+		(pin "6"
+			(uuid "e12c4f36-5e22-480f-b4e6-58f577b3cd02")
+		)
+		(pin "3"
+			(uuid "5cacf18d-1fcd-4651-85b3-f3706baa3db2")
+		)
+		(pin "4"
+			(uuid "fe767c87-d639-4503-9572-c5e9e3ea09c6")
+		)
+		(pin "5"
+			(uuid "702c43e7-3f18-419d-b866-3e13e444387c")
+		)
+		(pin "2"
+			(uuid "90713923-6f8f-4d05-8867-5751eb61d341")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 153.416 101.854 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6a0225b-e4f1-4dc9-bd0c-c22d763608e1")
+		(property "Reference" "RN4"
+			(at 146.812 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 148.082 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 151.384 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.416 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 153.416 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 153.416 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "00b333cd-4de1-4a51-887f-f889e3af423a")
+		)
+		(pin "1"
+			(uuid "9c5ccafb-a968-4e01-b0a7-b8402a168465")
+		)
+		(pin "3"
+			(uuid "f66cf62b-ac2d-4c7b-aced-50f79d2787ae")
+		)
+		(pin "2"
+			(uuid "8f33f4f5-745e-4839-b372-c06fd1f08a36")
+		)
+		(pin "5"
+			(uuid "21c28cef-1906-4d82-b8f6-8cd12b1a9636")
+		)
+		(pin "7"
+			(uuid "921a509f-66f3-46a0-a631-856b943e2785")
+		)
+		(pin "4"
+			(uuid "0caa28cd-bdb1-4afe-aec0-c7875925f710")
+		)
+		(pin "6"
+			(uuid "9ba9f165-ad8b-481f-a4f1-361da4f4e3c3")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3737d99-2990-48c2-81ec-6d89cfe7df8e")
+		(property "Reference" "R23"
+			(at 187.96 60.706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 187.96 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 187.96 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828765"
+			(at 187.96 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7db18da4-d36e-4b68-8c6b-cb51d4d3c221")
+		)
+		(pin "2"
+			(uuid "c95deebd-9ed9-4a47-89f3-c3eb31dd7eae")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 198.12 61.468 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e82c7da3-0a15-43e3-bd79-ab393ce8ca88")
+		(property "Reference" "F7"
+			(at 196.596 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150 mA"
+			(at 200.66 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 198.12 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 198.12 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20797"
+			(at 198.12 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 198.12 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ca7a367-259f-4770-be53-9f12b817c8d0")
+		)
+		(pin "2"
+			(uuid "aaea6c0c-bc66-4b24-8fc7-69ae994b3379")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 158.496 61.722 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebfc1fd9-95d9-48a1-b5ca-58039d02a4c1")
+		(property "Reference" "F5"
+			(at 156.972 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150 mA"
+			(at 161.036 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 158.496 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.496 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 158.496 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20797"
+			(at 158.496 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 158.496 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d6e7fee-1c92-431e-ac01-1f31827ac4e0")
+		)
+		(pin "2"
+			(uuid "d23159be-43bf-4abf-a20d-42d902c79807")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 210.058 110.998 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec50e2ce-a4da-4ce2-a8a9-f5d287fe33fd")
+		(property "Reference" "RN1"
+			(at 210.058 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 210.058 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 210.058 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.058 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 210.058 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 210.058 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0a2aa4de-2388-4f07-b377-4c9b6fb824dd")
+		)
+		(pin "4"
+			(uuid "b28fc75a-2aa2-49dd-97b5-eccd42af76a2")
+		)
+		(pin "5"
+			(uuid "c9af887f-8935-43e5-b83f-9d264e1b8d6f")
+		)
+		(pin "2"
+			(uuid "0131b689-2224-4d03-8a1f-513a5aedfc25")
+		)
+		(pin "7"
+			(uuid "7164098b-863c-4c75-9b01-3f5cab87384f")
+		)
+		(pin "1"
+			(uuid "6451e0b0-063c-488f-86e5-b228693479e6")
+		)
+		(pin "3"
+			(uuid "644977a1-d3d9-4828-99e4-3d1c7cf4c36c")
+		)
+		(pin "8"
+			(uuid "88bc0b7f-0bd3-41a7-99b6-8c5ea3cd18c5")
+		)
+		(instances
+			(project "IoT NODE V3"
+				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/eb2255d7-dd8a-4329-bab9-5dd2b83e3d71"
+					(reference "RN1")
+					(unit 2)
+				)
+			)
+		)
+	)
+)
